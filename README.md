@@ -1,1 +1,37 @@
-# CS380Portfolio
+# Overview
+Throughout the course, we explored the fundamental components of statistics and probability within the realm of data science, using these tools to analyze data, make predictions, and derive insights from various datasets. This guide summarizes the key concepts, theories, and applications of statistics as they were covered and applied during the course. We worked extensively with probability theory, random variables, statistical inference, hypothesis testing, and various visualization methods, which were crucial in understanding and applying statistical methods in practical data science scenarios.
+
+# Probability Theory and Random Variables
+In the course, we delved into probability theory, which served as the mathematical framework for understanding uncertainty and randomness, essential elements in data science. We began with foundational concepts of probability, measuring the likelihood of events within a given space of possible outcomes. This included defining events within the context of a sample space and exploring the axioms of probability that govern these events.
+
+We studied random variables, both discrete and continuous, which were central to our understanding of probability theory. These variables represented outcomes of random phenomena and were characterized by their probability distributions. We explored key distributions such as the binomial, Poisson, and normal distributions, using them to model different data scenarios. The expectation (mean), variance, and higher moments of these distributions were calculated using functions in Python libraries like NumPy and SciPy, providing insights into the behavior and characteristics of the data.
+
+# Descriptive Statistics
+Descriptive statistics were used extensively to summarize and visualize the data we worked with. We calculated measures of central tendency, including the mean, median, and mode, to describe the typical values in our datasets. Measures of variability, such as variance, standard deviation, and interquartile range, were computed to quantify the spread of the data. Additionally, we examined skewness and kurtosis to better understand the shape and tails of the data distributions.
+
+To visualize these data characteristics, we employed visualization tools within Jupyter notebooks, utilizing libraries such as Matplotlib and Seaborn. We created histograms, box plots, and scatter plots to graphically represent the data, making it easier to identify trends, outliers, and relationships between variables. More advanced visualizations, such as heatmaps and pair plots, were generated to explore high-dimensional datasets, particularly those sourced from Kaggle, which provided real-world data for experimentation.
+
+# Statistical Inference and Hypothesis Testing
+We engaged in statistical inference, applying it to make conclusions about populations based on samples of data. We employed estimation techniques, including point estimation and interval estimation, to infer population parameters. This was particularly useful when working with dummy data and datasets from Kaggle, where we needed to draw conclusions about larger populations based on limited data samples.
+
+Hypothesis testing played a crucial role in the course. We formulated null and alternative hypotheses and used test statistics, such as the t-statistic and chi-square statistic, to evaluate evidence against the null hypothesis. Python libraries like Statsmodels and SciPy were used to perform t-tests, ANOVA, and chi-square tests on the data, allowing us to assess the validity of various claims or models. We interpreted p-values and constructed confidence intervals to quantify the strength of evidence and the range of plausible values for our estimates.
+
+# Applied Concepts in Probability and Statistics
+In applied settings, we explored stochastic processes and Markov chains, which modeled sequences of events where the outcome of one event depended on previous events. These concepts were demonstrated using time series data, where we analyzed customer behavior and stock prices using Python libraries like Pandas and Statsmodels.
+
+Randomized algorithms, which utilized random sampling or random decisions, were another significant area of focus. We implemented Monte Carlo methods, relying on repeated random sampling to perform numerical integration, optimization, and simulation of complex systems. These methods were coded in Jupyter notebooks, using Python to run simulations and visualize the results, which provided us with hands-on experience in applying probabilistic algorithms to real-world problems.
+
+# Algorithms and Data Science
+Throughout the course, we applied many data science algorithms grounded in probability and statistics. For example, we explored machine learning algorithms that relied on probabilistic models, such as Bayesian networks, to represent the conditional dependencies between variables. Regression analysis, including linear and logistic regression, was used to model relationships between dependent and independent variables. We estimated model coefficients using maximum likelihood estimation and least squares, with Python libraries like Scikit-learn providing the tools necessary to implement and evaluate these models.
+
+We also delved into clustering algorithms like k-means and hierarchical clustering, using them to group data points based on statistical measures. Dimensionality reduction techniques, particularly Principal Component Analysis (PCA), were applied to reduce the number of features in datasets, making it easier to visualize and analyze high-dimensional data. These algorithms were implemented and tested using Kaggle datasets within Jupyter notebooks, providing a practical understanding of their applications and limitations.
+
+# Advanced Topics
+We explored Bayesian statistics, incorporating prior knowledge into our analysis. This approach was particularly valuable in situations where prior data or expert knowledge was available, allowing us to update the probability of a hypothesis as more evidence became available. We used Python libraries like PyMC3 to perform Bayesian inference, applying these methods to various datasets for a deeper understanding of their practical applications.
+
+Additionally, we studied stochastic processes, using techniques like Markov Chain Monte Carlo (MCMC) to sample from complex distributions. These advanced topics were demonstrated through coding exercises in Jupyter notebooks, where we simulated processes that evolved over time in a probabilistic manner, providing a solid foundation for understanding more complex statistical models.
+
+# Visualization and Data Exploration
+Visualization was a critical tool throughout the course, enabling us to explore data and present our findings effectively. We created a variety of charts and graphs, ranging from basic bar graphs and line plots to more sophisticated visualizations using Seaborn and ggplot within Python and R environments. Techniques such as heatmaps, pair plots, and facet grids were employed to explore relationships between multiple variables simultaneously.
+
+For more dynamic and interactive visualizations, we experimented with tools like Plotly, which allowed us to create interactive graphs that could be explored in detail. These visualizations were particularly useful when working with larger Kaggle datasets, as they enabled us to uncover hidden patterns and insights that were not immediately apparent from the raw data.
